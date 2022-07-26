@@ -1,6 +1,7 @@
 ///<reference types = "Cypress"/>
 
 describe('API Employees Test', () => {
+    
 Cypress.config('baseUrl', 'https://dummy.restapiexample.com/api/v1');
 
     it ('Get All Employees', () => {
